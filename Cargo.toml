@@ -1,0 +1,12 @@
+[workspace]
+resolver = "3"
+members = ["aoc-lib",
+    "day01",
+]
+
+[workspace.package]
+names = "precosky-advent-of-code-2025"
+edition = "2024"
+repository = "https://github.com/alex-precosky/AdventOfCode2025"
+version = "0.1.0"
+publish = false
