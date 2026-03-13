@@ -1,5 +1,8 @@
 # AdventOfCode2025
 
+GitHub Action Status: ![rust](https://github.com/alex-precosky/AdventOfCode2025/actions/workflows/rust.yml/badge.svg)
+
+
 My solutions to advent of code 2025, my second year doing it in Rust.
 
 Development was done in a mix of Windows Subsystem for Linux 2 on Windows 11 and macOS.
