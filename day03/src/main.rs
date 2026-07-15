@@ -54,11 +54,9 @@ fn find_furthest_left_unactivated_cell_from_idx(
     right_idx: usize,
 ) -> usize {
     // iterating leftwards, starting at 'right_idx', to the cell right of 'furthest_left_unactivated_cell_idx...
-    let max_idx = (right_idx..furthest_left_unactivated_cell_idx + 1)
+    (right_idx..furthest_left_unactivated_cell_idx + 1)
         .max_by_key(|i| get_digit_at_n(bank, *i))
-        .expect("There has to be a cell that isn't activated yet...");
-
-    max_idx
+        .expect("There has to be a cell that isn't activated yet...")
 }
 
 /// By turning on `on_at_once` cells in a `Battery`, what's the most joltage that can be produced?
