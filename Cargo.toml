@@ -4,6 +4,7 @@ members = ["aoc-lib",
     "day01",
     "day02",
     "day03",
+    "day04",
 ]
 
 [workspace.package]
